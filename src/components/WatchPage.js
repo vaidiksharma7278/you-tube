@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux';
 import { useSearchParams } from 'react-router-dom';
 import { closeMenu } from '../utils/SideMenuSlice';
+import CommentContainer from './CommentContainer';
+import LiveChat from './LiveChat';
 function WatchPage() {
     const dispatch=useDispatch();
     useEffect(()=>{
@@ -20,12 +22,14 @@ function WatchPage() {
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
+            
           ></iframe>
         </div>
         <div className="w-full">
-          <h1>Livechat</h1>
+        <LiveChat/>
         </div>
       </div>
+      <CommentContainer/>
         </div>
     )
 }

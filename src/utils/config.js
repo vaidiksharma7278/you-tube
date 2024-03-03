@@ -10,3 +10,4 @@ export const YOUTUBE_SEARCH_API =
 export const Y2="https://clients1.google.com/complete/search?client=youtube&gs_ri=youtube&ds=yt&q="
 
 export const y3="https://suggestqueries.google.com/complete/search?client=youtube&ds=yt&num=10&q="
+export const LIVE_COUNT=25;
