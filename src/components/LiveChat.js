@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import ChatMessage from './ChatMessage'
 import { useDispatch,useSelector } from 'react-redux';
-import { LIVE_COUNT } from '../utils/config'
+
 import { addMessage } from '../utils/chatSlice';
 import { generateMessage,generateName } from '../utils/helper';
 function LiveChar() {

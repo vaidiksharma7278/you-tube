@@ -8,4 +8,4 @@ function Button({name,index}) {
   )
 }
 
-export default Button
+export default Button;
